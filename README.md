@@ -9,3 +9,12 @@ It is playground for spring mvc
         1. change packaging from jar to war
             <packaging>war</packaging>
             
+        2. Add below line in pom.xml file
+        
+                    <dependency>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-tomcat</artifactId>
+                        <version>2.0.4.RELEASE</version>
+                        <scope>provided</scope>
+                    </dependency>
+            
